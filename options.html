@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+      input {
+        display: block;
+      }
+      label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      Any shortcuts with blank fields are omitted.
+    </div>
+    <form>
+      <div class="options">
+        <h3>Shortcut 1</h3>
+        <label>Friendly name</label>
+        <input type="text" name="shortcut_1_alias" id="shortcut_1_alias" placeholder="Joel" />
+        <label>Opponent's username</label>
+        <input type="text" name="shortcut_1_username" id="shortcut_1_username" placeholder="jwass88" />
+        <label>Time (mins)</label>
+        <input type="text" name="shortcut_1_time" id="shortcut_1_time" placeholder="5" />
+        <label>Increment (seconds)</label>
+        <input type="text" name="shortcut_1_increment" id="shortcut_1_increment" placeholder="0" />
+        <label>Rated</label>
+        <input type="checkbox" name="shortcut_1_rated" id="shortcut_1_rated"/>
+      </div>
+      <hr>
+      <div>
+        <h3>Shortcut 2</h3>
+        <label>Friendly name</label>
+        <input type="text" name="shortcut_2_alias" id="shortcut_2_alias" placeholder="Kev" />
+        <label>Opponent's username</label>
+        <input type="text" name="shortcut_2_username" id="shortcut_2_username" placeholder="lando777" />
+        <label>Time (mins)</label>
+        <input type="text" name="shortcut_2_time" id="shortcut_2_time" placeholder="5" />
+        <label>Increment (seconds)</label>
+        <input type="text" name="shortcut_2_increment" id="shortcut_2_increment" placeholder="0" />
+        <label>Rated</label>
+        <input type="checkbox" name="shortcut_2_rated" id="shortcut_2_rated"/>
+      </div>
+      <hr>
+      <div>
+        <h3>Shortcut 3</h3>
+        <label>Friendly name</label>
+        <input type="text" name="shortcut_3_alias" id="shortcut_3_alias" placeholder="Bob" />
+        <label>Opponent's username</label>
+        <input type="text" name="shortcut_3_username" id="shortcut_3_username" placeholder="bobsburgers" />
+        <label>Time (mins)</label>
+        <input type="text" name="shortcut_3_time" id="shortcut_3_time" placeholder="5" />
+        <label>Increment (seconds)</label>
+        <input type="text" name="shortcut_3_increment" id="shortcut_3_increment" placeholder="0" />
+        <label>Rated</label>
+        <input type="checkbox" name="shortcut_3_rated" id="shortcut_3_rated"/>
+      </div>
+      <hr>
+      <button type="submit" id="submit_btn">Save</button>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
